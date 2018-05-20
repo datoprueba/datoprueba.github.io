@@ -16,3 +16,31 @@
 .img-logo{
     height: 80px;
 }
+
+.h400 {
+    height: 400px;
+}
+
+
+.scrolltable thead, .scrolltable tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.scrolltable tbody {
+    display: block;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.scrolltable td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*Use the following to make sure cols align correctly*/
+.scrolltable table, .scrolltable tr, .scrolltable th, .scrolltable td {
+    border-collapse: collapse;
+}
