@@ -25,6 +25,14 @@
     cursor: pointer;
 }
 
+.sell{
+    color: #ed5466;
+}
+
+.buy{
+    color: #85c241;
+}
+
 .scrolltable thead, .scrolltable tbody tr {
     display: table;
     width: 100%;
@@ -33,7 +41,7 @@
 
 .scrolltable tbody {
     display: block;
-    max-height: 400px;
+    max-height: 300px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
