@@ -21,6 +21,9 @@
     height: 400px;
 }
 
+.pointer {
+    cursor: pointer;
+}
 
 .scrolltable thead, .scrolltable tbody tr {
     display: table;
