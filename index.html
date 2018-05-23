@@ -134,7 +134,40 @@
                                 </div>
                         </div>
                     </div>
-                       <!-- START row -->
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="semibold">MY TRANSACTIONS</h3>
+                            <!-- tab -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#tradestab" data-toggle="tab">Trades</a></li>
+                                <li><a href="#orderstab" data-toggle="tab">Orders</a></li>
+                                <li><a href="#fundstab" data-toggle="tab">Funds</a></li>
+                            </ul>
+                            <!--/ tab -->
+                            <!-- tab content -->
+                            <div class="tab-content panel mh320">
+                                <div class="tab-pane active np" id="tradestab">
+                                    <div id="myTrades"></div>
+                                </div>
+                                <div class="tab-pane np" id="orderstab">
+                                    <div id="myOrders"></div>
+                                </div>
+                                <div class="tab-pane np" id="fundstab">
+                                    <div id="myFunds"></div>
+                                </div>
+                            </div>
+                            <!--/ tab content -->
+                        </div>
+                        <div class="col-md-6">
+                                <h3 class="semibold">BALANCE</h3>
+                                <div class="panel">
+                                    <div id="balance"></div>      
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <!-- START row -->
                 <div class="row">
 
                     <div class="col-md-6">
@@ -245,14 +278,11 @@
 </ul>
 
 
-        <div id="balance"></div>
         <div id="volume"></div>
         <div id="orders"></div>
         
         <div id="important"></div>
-        <div id="myTrades"></div>
-        <div id="myOrders"></div>
-        <div id="myFunds"></div>
+     
         <div id="updates"></div>
     
     
