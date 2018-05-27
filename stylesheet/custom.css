@@ -9,6 +9,10 @@
  background-color: #222B33;
 } */
 
+.ttip .text {
+    display:none;
+}
+
 .mh320 {
     min-height: 320px;
 }

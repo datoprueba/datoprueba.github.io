@@ -101,10 +101,10 @@
       
             <!-- START Features Section -->
             <section class="bgcolor-white">
-                <div class="container pb30">
+                <div class="container-fluid pb30">
                   
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <h3 class="semibold">INFORMATION</h3>
                             <!-- tab -->
                             <ul class="nav nav-tabs">
@@ -127,7 +127,7 @@
                             </div>
                             <!--/ tab content -->
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                                 <h3 class="semibold">&nbsp;</h3>
                                 <div class="panel">
                                     <div id="trades"></div>      
@@ -136,85 +136,34 @@
                     </div>
                     
                     <div class="row">
-                        <div class="col-md-6">
-                            <h3 class="semibold">MY TRANSACTIONS</h3>
-                            <!-- tab -->
-                            <ul class="nav nav-tabs">
-                                <li class="active"><a href="#tradestab" data-toggle="tab">Trades</a></li>
-                                <li><a href="#orderstab" data-toggle="tab">Orders</a></li>
-                                <li><a href="#fundstab" data-toggle="tab">Funds</a></li>
-                            </ul>
-                            <!--/ tab -->
-                            <!-- tab content -->
-                            <div class="tab-content panel mh320">
-                                <div class="tab-pane active np" id="tradestab">
-                                    <div id="myTrades"></div>
-                                </div>
-                                <div class="tab-pane np" id="orderstab">
-                                    <div id="myOrders"></div>
-                                </div>
-                                <div class="tab-pane np" id="fundstab">
-                                    <div id="myFunds"></div>
-                                </div>
-                            </div>
-                            <!--/ tab content -->
-                        </div>
+                        
                         <div class="col-md-6">
                                 <h3 class="semibold">BALANCE</h3>
                                 <div class="panel">
                                     <div id="balance"></div>      
                                 </div>
                         </div>
-                    </div>
-                    
-                    <!-- START row -->
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <!-- Form horizontal layout -->
-                        <form class="form-horizontal panel panel-default" action="">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">SELL</h3>
-                                <!-- panel toolbar -->
-                                <div class="panel-toolbar text-right">
-                                    <h5 class="semibold"></h5>
+                        <div class="col-md-6">
+                                <h3 class="semibold">&nbsp;</h3>
+                            
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#buytab" data-toggle="tab">BUY</a></li>
+                                <li><a href="#selltab" data-toggle="tab">SELL</a></li>
+                            </ul>
+                            <!--/ tab -->
+                            <!-- tab content -->
+                            <div class="tab-content panel mh320">
+                                <div class="tab-pane active" id="buytab">
+                                    <div id="buy"></div>
                                 </div>
-                                <!--/ panel toolbar -->
-                            </div>               
-                            <div class="panel-body">
-                                <div id="sell"></div>
-                            </div>
-                            
-                            
-                        </form>
-                        <!--/ Form horizontal layout -->
-                    </div>
-
-                    <div class="col-md-6">
-                        
-                        <!-- Form horizontal layout -->
-                        <form class="form-horizontal panel panel-default" action="">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">BUY</h3>
-                                <!-- panel toolbar -->
-                                <div class="panel-toolbar text-right">
-                                    <h5 class="semibold"></h5>
+                                <div class="tab-pane" id="selltab">
+                                    <div id="sell"></div>
                                 </div>
-                                <!--/ panel toolbar -->
-                            </div>               
-                            <div class="panel-body">
-                                <div id="buy"></div>
                             </div>
-                            
-                           
-                        </form>
-                        <!--/ Form horizontal layout -->
+                            <!--/ tab content -->
+                        </div>
                     </div>
-
-
-                    
-                </div>
-                <!--/ END row -->
+                 
 
                 <h3 class="semibold">ORDER BOOK</h3>
                 <div class="row">
@@ -280,6 +229,9 @@
 
         <div id="volume"></div>
         <div id="orders"></div>
+        <div id="myTrades"></div>
+        <div id="myOrders"></div>
+        <div id="myFunds"></div>
         
         <div id="important"></div>
      
