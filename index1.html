@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="frontend">
+    <!-- START Head -->
+    <head>
+        <!-- START META SECTION -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ASEDEX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="image/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="image/favicon.ico">
+        <!--/ END META SECTION -->
+
+        <!-- START STYLESHEETS -->
+        <!-- Plugins stylesheet : optional -->
+        <link rel="stylesheet" href="plugins/owl/css/owl-carousel.css">
+        <!--/ Plugins stylesheet : optional -->
+
+        <!-- Application stylesheet : mandatory -->
+        <link rel="stylesheet" href="stylesheet/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet/layout.css">
+       
+        <link rel="stylesheet" href="stylesheet/uielement.css">
+        <link rel="stylesheet" href="stylesheet/themes/layouts/fixed-header.css">
+        <link rel="stylesheet" href="plugins/gritter/css/gritter.css">
+        <link rel="stylesheet" href="stylesheet/custom.css">
+        <!--/ Application stylesheet -->
+
+        <!-- modernizr script -->
+        <script type="text/javascript" src="plugins/modernizr/js/modernizr.js"></script>
+        <!--/ modernizr script -->
+        <!-- END STYLESHEETS -->
+    </head>
+    <!--/ END Head -->
+
+    <!-- START Body -->
+    <body>
+      <!-- START Template Header -->
+      <header id="header" class="navbar">
+        <div class="container">
+            <!-- START navbar header -->
+            <div class="navbar-header navbar-header-transparent">
+                <!-- Brand -->
+                <a class="navbar-brand" href="javascript:void(0);">
+                    <img class="img-logo" src="image/logo/asedex.png" />
+                </a>
+                <!--/ Brand -->
+            </div>
+            <!--/ END navbar header -->
+
+            <!-- START Toolbar -->
+            <div class="navbar-toolbar clearfix">
+                <!-- START Left nav -->
+                <ul class="nav navbar-nav">
+                    <!-- Navbar collapse: This menu will take position at the top of template header (mobile only). Make sure that only #header have the `position: relative`, or it may cause unwanted behavior -->
+                    <li class="navbar-main navbar-toggle">
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="meta">
+                                <span class="icon"><i class="ico-paragraph-justify3"></i></span>
+                            </span>
+                        </a>
+                    </li>
+                    <!--/ Navbar collapse -->
+                </ul>
+                <!--/ END Left nav -->
+
+              
+
+                <!-- START Right nav -->
+                <ul class="nav navbar-nav navbar-right">
+                    
+
+                </ul>
+                <!--/ END Right nav -->
+
+                <!-- START nav collapse -->
+                <div class="collapse navbar-collapse navbar-collapse-alt" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+
+                            <li class="dropdown" id="tokensDropdown"></li>
+                            <li class="dropdown" id="helpDropdown"></li>
+                           
+                            <li class="dropdown" id="accounts"></li>
+
+                      
+                    </ul>
+                </div>
+                <!--/ END nav collapse -->
+            </div>
+            <!--/ END Toolbar -->
+        </div>
+    </header>
+    <!--/ END Template Header -->
+
+        <!-- START Template Main -->
+        <section id="main" role="main">
+      
+            <!-- START Features Section -->
+            <section class="bgcolor-white">
+                <div class="container pb30">
+
+                    <div class="row">
+                            <div id="balancetab" class="pt30"><div>
+                                    <div class="col-lg-3"><ul class="list-group list-group-tabs" role=""><li role="presentation" class="list-group-item active"><a href="#deposit" aria-controls="deposit" role="tab" data-toggle="tab" class="trn" data-trn-key="deposit" data-original-title="" title="">Deposit</a></li><li role="presentation" class="list-group-item"><a href="#withdraw" aria-controls="withdraw" role="tab" data-toggle="tab" class="trn" data-trn-key="withdraw" data-original-title="" title="">Withdraw</a></li><li role="presentation" class="list-group-item"><a href="#transfer" aria-controls="transfer" role="tab" data-toggle="tab" class="trn" data-trn-key="transfer" data-original-title="" title="">Transfer</a></li></ul></div>
+
+
+                                
+                                <div class="col-lg-9"><div><div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="deposit">
+                                    <table class="table table-borderless table-balances">
+                                            <tbody>
+                                                    <tr class="table-header">
+                                                        <td class="trn" data-trn-key="token">Token</td>
+                                                        <td class="trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="balance_wallet_tooltip" data-trn-key="balance_in_your_wallet" data-original-title="This is the balance in your personal Ethereum wallet, which you have connected to ASEDEX in the account dropdown (upper right)." aria-describedby="tooltip68756">Wallet</td>
+                                                        <td class="trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="balance_etherdelta_tooltip" data-trn-key="balance_etherdelta" data-original-title="This is the balance you have deposited from your personal Ethereum wallet to the current smart contract.">ASEDEX</td><td></td><td></td></tr>
+                                                        <tr><td><a href="javascript:;">EOS</a></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td>
+                                                    <td><input type="text" class="form-control input-xs trn" placeholder="Amount" data-trn-key-placeholder="amount" data-trn-key="" style="width: 195px;"></td><td><button type="button" class="btn btn-primary btn-xs trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="deposit_tab" data-trn-key="deposit" style="width: 80px;" data-original-title="Use this to deposit from your personal Ethereum wallet (&quot;Wallet&quot; column) to the current smart contract (&quot;ASEDEX&quot; column).">Deposit</button></td></tr>
+                                                <tr><td><a href="javascript:;">ETH</a></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td>
+        <td><input type="text" class="form-control input-xs trn" placeholder="Amount" data-trn-key-placeholder="amount" data-trn-key="" style="width: 195px;"></td><td><button type="button" class="btn btn-primary btn-xs trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="deposit_tab" data-trn-key="deposit" style="width: 80px;" data-original-title="Use this to deposit from your personal Ethereum wallet (&quot;Wallet&quot; column) to the current smart contract (&quot;ASEDEX&quot; column).">Deposit</button></td>
+                                              
+        </tr></tbody>
+                                    </table>
+                                </div>
+                            
+                                        
+                                        
+                                        <div role="tabpanel" class="tab-pane" id="withdraw"><table class="table table-borderless table-balances"><tbody><tr class="table-header"><td class="trn" data-trn-key="token">Token</td><td class="trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="balance_wallet_tooltip" data-trn-key="balance_in_your_wallet" data-original-title="This is the balance in your personal Ethereum wallet, which you have connected to ASEDEX in the account dropdown (upper right).">Wallet</td><td class="trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="balance_etherdelta_tooltip" data-trn-key="balance_etherdelta" data-original-title="This is the balance you have deposited from your personal Ethereum wallet to the current smart contract.">ASEDEX</td></tr></tbody></table><table class="table table-borderless table-balances"><tbody><tr><td><a href="javascript:;">EOS</a></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td></tr></tbody></table><div class="padding-sides"><table class="table table-borderless table-balances"><tbody><tr><td colspan="2"><input type="text" class="form-control input-xs trn" placeholder="Amount" data-trn-key-placeholder="amount" data-trn-key="" style="width: 195px;"></td><td><button type="button" class="btn btn-primary btn-xs trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="withdraw_tab" data-trn-key="withdraw" style="width: 80px;" data-original-title="Use this to withdraw from the current smart contract (&quot;ASEDEX&quot; column) to your personal Ethereum wallet (&quot;Wallet&quot; column).">Withdraw</button></td></tr></tbody></table></div><table class="table table-borderless table-balances"><tbody><tr><td><a href="javascript:;">ETH</a></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td></tr></tbody></table><div class="padding-sides"><table class="table table-borderless table-balances"><tbody><tr><td colspan="2"><input type="text" class="form-control input-xs trn" placeholder="Amount" data-trn-key-placeholder="amount" data-trn-key="" style="width: 195px;"></td><td><button type="button" class="btn btn-primary btn-xs trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="withdraw_tab" data-trn-key="withdraw" style="width: 80px;" data-original-title="Use this to withdraw from the current smart contract (&quot;ASEDEX&quot; column) to your personal Ethereum wallet (&quot;Wallet&quot; column).">Withdraw</button></td></tr></tbody></table></div></div><div role="tabpanel" class="tab-pane" id="transfer"><table class="table table-borderless table-balances"><tbody><tr class="table-header"><td class="trn" data-trn-key="token">Token</td><td class="trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="balance_wallet_tooltip" data-trn-key="balance_in_your_wallet" data-original-title="This is the balance in your personal Ethereum wallet, which you have connected to ASEDEX in the account dropdown (upper right).">Wallet</td><td class="trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="balance_etherdelta_tooltip" data-trn-key="balance_etherdelta" data-original-title="This is the balance you have deposited from your personal Ethereum wallet to the current smart contract.">ASEDEX</td></tr></tbody></table><table class="table table-borderless table-balances"><tbody><tr><td><a href="javascript:;">EOS</a></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td></tr></tbody></table><div class="padding-sides"><table class="table table-borderless table-balances"><tbody><tr><td><input type="text" class="form-control input-xs trn" placeholder="Amount" data-trn-key-placeholder="amount" data-trn-key="" style="width: 65px;"></td><td><input type="text" class="form-control input-xs trn" placeholder="Address" value="" data-trn-key-placeholder="address" data-trn-key="" style="width: 130px;"></td><td><button type="button" class="btn btn-primary btn-xs trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="transfer_tab" data-trn-key="transfer" style="width: 80px;" data-original-title="Use this to transfer from your personal Ethereum wallet (&quot;Wallet&quot; column) to any other wallet.">Transfer</button></td></tr></tbody></table></div><table class="table table-borderless table-balances"><tbody><tr><td><a href="javascript:;">ETH</a></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td><td><span class="ttip">0.000<span class="text">0.000000000000</span></span></td></tr></tbody></table><div class="padding-sides"><table class="table table-borderless table-balances"><tbody><tr><td><input type="text" class="form-control input-xs trn" placeholder="Amount" data-trn-key-placeholder="amount" data-trn-key="" style="width: 65px;"></td><td><input type="text" class="form-control input-xs trn" placeholder="Address" value="" data-trn-key-placeholder="address" data-trn-key="" style="width: 130px;"></td><td><button type="button" class="btn btn-primary btn-xs trn" data-toggle="tooltip" data-placement="bottom" title="" data-trn-key-title="transfer_tab" data-trn-key="transfer" style="width: 80px;" data-original-title="Use this to transfer from your personal Ethereum wallet (&quot;Wallet&quot; column) to any other wallet.">Transfer</button></td></tr></tbody></table></div></div></div><div style="margin: 12px;"><p>Make sure <a href="javascript:;">EOS</a> is the token you actually want to trade. Multiple tokens can share the same name.</p></div></div></div></div></div>
+                    </div>
+                  
+                    <div class="row">
+                        <div class="col-md-8">
+                            <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container pt30">
+        <div id="tradingview_ed224"></div>
+        <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/BINANCE-EOSETH/" rel="noopener" target="_blank"><span class="blue-text">EOSETH chart</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+        new TradingView.widget(
+        {
+        "width": 760,
+        "height": 400,
+        "symbol": "BINANCE:EOSETH",
+        "interval": "D",
+        "timezone": "Etc/UTC",
+        "theme": "Light",
+        "style": "1",
+        "locale": "in",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "hide_side_toolbar": false,
+        "allow_symbol_change": true,
+        "save_image": false,
+        "details": true,
+        "hotlist": true,
+        "calendar": true,
+        "news": [
+          "stocktwits",
+          "headlines"
+        ],
+        "container_id": "tradingview_ed224"
+      }
+        );
+        </script>
+      </div>
+      <!-- TradingView Widget END -->
+                        </div>
+                        <div class="col-md-4">
+                                <div class="pt30">
+                                        <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#buytab" data-toggle="tab">BUY</a></li>
+                                                <li><a href="#selltab" data-toggle="tab">SELL</a></li>
+                                            </ul>
+                                            <!--/ tab -->
+                                            <!-- tab content -->
+                                            <div class="tab-content panel mh320">
+                                                <div class="tab-pane active" id="buytab">
+                                                    <div id="buy"></div>
+                                                </div>
+                                                <div class="tab-pane" id="selltab">
+                                                    <div id="sell"></div>
+                                                </div>
+                                            </div>
+                                            <!--/ tab content -->
+                                </div>
+                        </div>
+                    </div>
+                    
+                
+
+                <h3 class="semibold">ORDER BOOK</h3>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <h3 class="panel-title">BIDS</h3>
+                        <!-- Form horizontal layout -->
+                        <form class="form-horizontal panel panel-default" action="">
+                                            
+                                <div class="panel-body np">
+                                    <div id="buyorders"></div>
+                                </div>
+                                
+                            
+                            </form>
+                            <!--/ Form horizontal layout -->
+                    </div>
+    
+                        <div class="col-md-6">
+                                <h3 class="panel-title">ASK</h3>
+                                <!-- Form horizontal layout -->
+                            <form class="form-horizontal panel panel-default" action="">
+                                                   
+                                    <div class="panel-body np">
+                                        <div id="sellorders"></div>
+                                    </div>
+                                    
+                                   
+                                </form>
+                                <!--/ Form horizontal layout -->
+                             
+                        </div>
+
+                       
+                       
+                        
+                    </div>
+                    <!--/ END row -->
+
+            
+              
+                </div>
+            </section>
+            <!--/ END Features Section -->
+
+
+            <!-- START To Top Scroller -->
+            <a href="#" class="totop animation" data-toggle="waypoints totop" data-showanim="bounceIn" data-hideanim="bounceOut" data-offset="50%"><i class="ico-angle-up"></i></a>
+            <!--/ END To Top Scroller -->
+        </section>
+        <!--/ END Template Main -->
+
+   
+        
+        
+    <div class="hide">
+<ul>
+        <li class="dropdown" id="languages"></li>
+        <li class="dropdown" id="tokenGuidesDropdown"></li>
+        <li class="dropdown" id="connection"></li>
+</ul>
+
+
+        <div id="volume"></div>
+        <div id="orders"></div>
+        <div id="myTrades"></div>
+        <div id="myOrders"></div>
+        <div id="myFunds"></div>
+        <div id="trades"></div> 
+        <div id="balance"></div> 
+        
+        <div id="important"></div>
+     
+        <div id="updates"></div>
+    
+    
+        <div id="buyTrade"></div>
+        <div id="sellTrade"></div>
+        <div id="importAccount"></div>
+        <div id="otherToken"></div>
+        <div id="gasPrice"></div>
+        <div id="tokenGuide"></div>
+        <div id="screencast"></div>
+        <div id="ledger"></div>
+  
+        <div id="chartPrice" style="height: 100%; width: 100%;"></div>
+        <div id="chartDepth" style="height: 100%; width: 100%;"></div>
+
+    </div>
+
+        <!-- START Template Footer -->
+        <footer role="contentinfo" class="bgcolor-dark">
+        
+            <!-- bottom footer -->
+            <div class="footer-bottom pt15 pb15 bgcolor-dark bgcolor-dark-darken10">
+                <!-- container -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <!-- copyright -->
+                            <p class="nm text-muted">&copy; Copyright 2018 by <a href="javascript:void(0);" class="text-white">ASEDEX</a>. All Rights Reserved.</p>
+                            <!--/ copyright -->
+                        </div>
+                        <div class="col-sm-6 text-right hidden-xs">
+                            <a href="javascript:void(0);" class="text-white">Privacy Policy</a>
+                            <span class="ml5 mr5">&#8226;</span>
+                            <a href="javascript:void(0);" class="text-white">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/ container -->
+            </div>
+            <!--/ bottom footer -->
+        </footer>
+        <!--/ END Template Footer -->
+
+        <!-- START JAVASCRIPT SECTION (Load javascripts at bottom to reduce load time) -->
+        <!-- Application and vendor script : mandatory -->
+        <script type="text/javascript" src="javascript/vendor.js"></script>
+        <script type="text/javascript" src="javascript/core.js"></script>
+        <script type="text/javascript" src="javascript/frontend/app.js"></script>
+        <script type="text/javascript" src="plugins/gritter/js/jquery.gritter.js"></script>
+        <!--/ Application and vendor script : mandatory -->
+
+        <!-- Plugins and page level script : optional -->
+        <script type="text/javascript" src="plugins/smoothscroll/js/smoothscroll.js"></script>
+        
+        <!--/ Plugins and page level script : optional -->
+        <script src="js/jquery.translate.js" type="text/javascript"></script>
+        <!-- <script src="js/bootstrap.min.js" type="text/javascript"></script> -->
+        <script src="js/alertify.min.js" type="text/javascript"></script>
+        <script src="js/ejs_production.js" type="text/javascript"></script>
+        <script src="js/chrome-u2f-api.js" type="text/javascript"></script>
+         <script src="js/ledger.min.js" type="text/javascript"></script>
+         <script>
+         function ga(method, options){
+             console.log(method, ':', options);
+         }
+
+         function showError(message) {
+            $.gritter.add({
+                            title: 'Error',
+                            text: message,
+                            sticky: false,
+                        });
+         }
+         </script>
+        <script src="js/main.js" type="text/javascript"></script> 
+        <!--/ END JAVASCRIPT SECTION -->
+    </body>
+    <!--/ END Body -->
+</html>
