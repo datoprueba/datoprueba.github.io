@@ -17,6 +17,10 @@
     width:150px;
 }
 
+.w200 {
+    width: 200px;
+}
+
 .mh320 {
     min-height: 320px;
 }
