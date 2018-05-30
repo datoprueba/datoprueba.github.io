@@ -13,6 +13,10 @@
     display:none;
 }
 
+.w150 {
+    width:150px;
+}
+
 .mh320 {
     min-height: 320px;
 }

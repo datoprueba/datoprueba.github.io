@@ -117,7 +117,7 @@
                   <div class="balancediv">
                     <div class="row">
                         <div class="col-md-8">
-                            <h3 class="semibold">INFORMATION</h3>
+                            <h3 class="semibold">CHARTING INFORMATION</h3>
                             <!-- tab -->
                             <ul class="nav nav-tabs">
                                 <li class="active"><a href="#timeline" data-toggle="tab">Timeline</a></li>
@@ -140,7 +140,7 @@
                             <!--/ tab content -->
                         </div>
                         <div class="col-md-4">
-                                <h3 class="semibold">&nbsp;</h3>
+                                <h3 class="semibold">TRANSACTION HISTORY</h3>
                                 <div class="panel">
                                     <div id="trades"></div>      
                                 </div>
@@ -152,7 +152,7 @@
                 <h3 class="semibold">ORDER BOOK</h3>
                 <div class="row">
                     
-                    <div class="col-md-4">
+                    <div class="col-md-4 pr0">
                         <h3 class="panel-title">BIDS</h3>
                         <!-- Form horizontal layout -->
                         <form class="form-horizontal panel panel-default" action="">
@@ -167,8 +167,8 @@
                     </div>
 
                     <div class="col-md-4">
-                        
-                    <ul class="nav nav-tabs mt20">
+                    <h3 class="panel-title">MAKE TRANSACTION</h3>   
+                    <ul class="nav nav-tabs nav-justified">
                         <li class="active"><a href="#buytab" data-toggle="tab">BUY</a></li>
                         <li><a href="#selltab" data-toggle="tab">SELL</a></li>
                     </ul>
@@ -185,8 +185,8 @@
                     <!--/ tab content -->
                 </div>
     
-                        <div class="col-md-4">
-                                <h3 class="panel-title">ASK</h3>
+                        <div class="col-md-4 pl0">
+                                <h3 class="panel-title">ASKS</h3>
                                 <!-- Form horizontal layout -->
                             <form class="form-horizontal panel panel-default" action="">
                                                    
@@ -315,6 +315,16 @@
                  $(".balancediv").toggleClass('hide');
                  $(".balancelispan").toggleClass('hide');
              });
+
+             $(document).on('blur','.appbuyexpirestext', function() {
+                 var v = $(this).val();
+                 $('.appbuyexpires').text('~App: '+(42 / 10000 * v)+' hours');
+             })
+
+              $(document).on('blur','.appsellexpirestext', function() {
+                 var v = $(this).val();
+                 $('.appsellexpires').text('~App: '+(42 / 10000 * v)+' hours');
+             })
          });
          </script>
         <script src="js/main.js" type="text/javascript"></script> 
