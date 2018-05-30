@@ -318,12 +318,12 @@
 
              $(document).on('blur','.appbuyexpirestext', function() {
                  var v = $(this).val();
-                 $('.appbuyexpires').text('~App: '+(42 / 10000 * v)+' hours');
+                 $('.appbuyexpires').text(`${v} Blocks is approximately ${(42 / 10000 * v)} hours`);
              })
 
               $(document).on('blur','.appsellexpirestext', function() {
                  var v = $(this).val();
-                 $('.appsellexpires').text('~App: '+(42 / 10000 * v)+' hours');
+                 $('.appsellexpires').text(`${v} Blocks is approximately ${(42 / 10000 * v)} hours`);
              })
          });
          </script>
