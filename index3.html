@@ -321,10 +321,31 @@
                  $('.appbuyexpires').text(`${v} Blocks is approximately ${(42 / 10000 * v)} hours`);
              })
 
-              $(document).on('blur','.appsellexpirestext', function() {
+             $(document).on('blur','.appsellexpirestext', function() {
                  var v = $(this).val();
                  $('.appsellexpires').text(`${v} Blocks is approximately ${(42 / 10000 * v)} hours`);
              })
+
+             $(document).on('click','.depositbutton', function() {
+                 var tn = $(this).attr('tokenname');
+                 $('.balanceform').addClass('hide');
+                 $('.depositform'+tn).removeClass('hide');
+             })
+
+             $(document).on('click','.withdrawbutton', function() {
+                 var tn = $(this).attr('tokenname');
+                 $('.balanceform').addClass('hide');
+                 $('.withdrawform'+tn).removeClass('hide');
+             })
+
+             $(document).on('click','.transferbutton', function() {
+                 var tn = $(this).attr('tokenname');
+                 $('.balanceform').addClass('hide');
+                 $('.transferform'+tn).removeClass('hide');
+             })
+
+
+
          });
          </script>
         <script src="js/main.js" type="text/javascript"></script> 
