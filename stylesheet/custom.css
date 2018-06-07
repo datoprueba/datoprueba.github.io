@@ -33,6 +33,10 @@
     min-height: 320px;
 }
 
+.mh355 {
+    min-height: 355px;
+}
+
 .img-logo{
     height: 80px;
 }
@@ -61,7 +65,7 @@
 
 .scrolltable tbody {
     display: block;
-    max-height: 300px;
+    max-height: 335px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
