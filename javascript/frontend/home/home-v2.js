@@ -18,12 +18,13 @@
 }(function () {
 
     $(function () {
+        $('select[name="select2-basic"]').select2();
         // Carousel
         // ================================
-        $('#customer-reviews').owlCarousel({
-            singleItem: true,
+        $('#lovely-client').owlCarousel({
             autoPlay: true,
-            autoHeight : true
+            autoHeight : true,
+            pagination : false
         });
 
         // Stellar
