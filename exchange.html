@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html class="frontend">
+    <!-- START Head -->
+    <head>
+        <!-- START META SECTION -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Currency Exchange</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="image/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="image/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="image/favicon.ico">
+        <!--/ END META SECTION -->
+
+        <!-- START STYLESHEETS -->
+        <!-- Plugins stylesheet : optional -->
+        <link rel="stylesheet" href="plugins/owl/css/owl-carousel.css">
+        <!--/ Plugins stylesheet : optional -->
+
+        <!-- Application stylesheet : mandatory -->
+        <link rel="stylesheet" href="stylesheet/bootstrap.css">
+        <link rel="stylesheet" href="stylesheet/layout.css">
+        <link rel="stylesheet" href="stylesheet/uielement.css">
+        
+        <link rel="stylesheet" href="stylesheet/themes/layouts/fixed-header.css">
+        <link rel="stylesheet" href="plugins/select2/css/select2.css">
+        <!--/ Application stylesheet -->
+
+        <link rel="stylesheet" href="stylesheet/custom.css">
+        <!-- modernizr script -->
+        <script type="text/javascript" src="plugins/modernizr/js/modernizr.js"></script>
+        <!--/ modernizr script -->
+        <!-- END STYLESHEETS -->
+    </head>
+    <!--/ END Head -->
+
+    <!-- START Body -->
+    <body>
+        <!-- START Template Header -->
+        <header id="header" class="navbar">
+            <div class="container">
+                <!-- START navbar header -->
+                <div class="navbar-header navbar-header-transparent">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="javascript:void(0);">
+                        <span class="logo-figure" style="margin-left:-4px;"></span>
+                        <span class="logo-text"></span>
+                    </a>
+                    <!--/ Brand -->
+                </div>
+                <!--/ END navbar header -->
+
+                <!-- START Toolbar -->
+                <div class="navbar-toolbar clearfix">
+                    <!-- START Left nav -->
+                    <ul class="nav navbar-nav">
+                        <!-- Navbar collapse: This menu will take position at the top of template header (mobile only). Make sure that only #header have the `position: relative`, or it may cause unwanted behavior -->
+                        <li class="navbar-main navbar-toggle">
+                            <a href="javascript:void(0);" data-toggle="collapse" data-target="#navbar-collapse">
+                                <span class="meta">
+                                    <span class="icon"><i class="ico-paragraph-justify3"></i></span>
+                                </span>
+                            </a>
+                        </li>
+                        <!--/ Navbar collapse -->
+                    </ul>
+                    <!--/ END Left nav -->
+
+                    <!-- START navbar form -->
+                    <div class="navbar-form navbar-left dropdown" id="dropdown-form">
+                        
+                    </div>
+                    <!-- START navbar form -->
+
+                    <!-- START Right nav -->
+                    <ul class="nav navbar-nav navbar-right">
+                     <!-- TODO: add login -->
+
+                    </ul>
+                    <!--/ END Right nav -->
+
+                    <!-- START nav collapse -->
+                    <div class="collapse navbar-collapse navbar-collapse-alt" id="navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active">
+                                <a href="#">
+                                    <span class="meta">
+                                        <span class="text">HOME</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="meta">
+                                        <span class="text">HOW IT WORKS</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="meta">
+                                        <span class="text">FAQ</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="meta">
+                                        <span class="text">TOOLS</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/ END nav collapse -->
+                </div>
+                <!--/ END Toolbar -->
+            </div>
+        </header>
+        <!--/ END Template Header -->
+
+        <!-- START Template Main -->
+        <section id="main" role="main">
+            <!-- START jumbotron -->
+            <section class="jumbotron jumbotron-bg7 nm" data-stellar-background-ratio="0.4" style="min-height:486px;">
+                <!-- pattern + overlay -->
+                <div class="overlay pattern pattern2"></div>
+                <!--/ pattern + overlay -->
+                <div class="container" style="padding-top:8%;padding-bottom:8%;">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="thin text-white font-alt mt0 mb5">Exchange cryptocurrency
+                                at the <span class="semibold">best rate</span></h1>
+                            <p class="text-white mb15 fsize14">
+                                    Transfer from one wallet to another within seconds. It's that simple.
+                            </p>
+                            
+                        </div>
+                        <div class="col-md-4">
+                            <form role="form">
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="You have" class="form-control">
+                                        <div class="input-group-btn">
+                                            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">ETH <span class="caret"></span></button>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="#">DAI</a></li>
+                                                <li><a href="#">EOS</a></li>
+                                                <li><a href="#">ETH</a></li>
+                                                <li><a href="#">PPT</a></li>
+                                                <li><a href="#">OMG</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="text-center">
+                                        <i class="ico-sort2 pointer"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" placeholder="You get" class="form-control">
+                                            <div class="input-group-btn">
+                                                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">DAI <span class="caret"></span></button>
+                                                <ul class="dropdown-menu pull-right">
+                                                    <li><a href="#">DAI</a></li>
+                                                    <li><a href="#">EOS</a></li>
+                                                    <li><a href="#">ETH</a></li>
+                                                    <li><a href="#">PPT</a></li>
+                                                    <li><a href="#">OMG</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                
+                                <button type="submit" class="btn btn-success btn-block">EXCHANGE</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/ END jumbotron -->
+
+            <!-- START Features Section -->
+            <section class="section bgcolor-white">
+                <div class="container">
+                    <!-- START Section Header -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-header text-center">
+                                <h1 class="section-title font-alt mb25">Features</h1>
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <h4 class="thin text-muted text-center">
+                                            its that's simple
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ END Section Header -->
+
+                    <!-- START row -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="table-layout animation" data-toggle="waypoints" data-showanim="fadeInRight" data-trigger-once="true">
+                                <div class="col-xs-2 valign-top"><img src="image/icons/affiliatemarketing.png" width="100%" alt=""></div>
+                                <div class="col-xs-19 pl15">
+                                    <h4 class="font-alt">Fair</h4>
+                                    <p class="nm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="table-layout animation" data-toggle="waypoints" data-showanim="fadeInRight" data-trigger-once="true">
+                                <div class="col-xs-2 valign-top"><img src="image/icons/targetaudience.png" width="100%" alt=""></div>
+                                <div class="col-xs-10 pl15">
+                                    <h4 class="font-alt">Trusty</h4>
+                                    <p class="nm">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="table-layout animation" data-toggle="waypoints" data-showanim="fadeInRight" data-trigger-once="true">
+                                <div class="col-xs-2 valign-top"><img src="image/icons/branddevelopment.png" width="100%" alt=""></div>
+                                <div class="col-xs-10 pl15">
+                                    <h4 class="font-alt">Fast</h4>
+                                    <p class="nm">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ END row -->
+
+                </div>
+            </section>
+            <!--/ END Features Section -->
+
+                        <!-- START Lovely Client -->
+                        <section class="section bgcolor-white">
+                            <div class="container">
+                                <!-- START Section Header -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="section-header text-center">
+                                            <h1 class="section-title font-alt mb25">Lovely Client</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/ END Section Header -->
+            
+                                <!-- carousel -->
+                                <div class="owl-carousel" id="lovely-client">
+                                    <!-- client #1 -->
+                                    <div class="item text-center">
+                                        <a href="javascript:void(0);"><img src="image/client/aztec.png" alt="Aztec Logo"></a>
+                                    </div>
+                                    <!--/ client #1 -->
+                                    <!-- client #2 -->
+                                    <div class="item text-center">
+                                        <a href="javascript:void(0);"><img src="image/client/cisco.png" alt="Cisco Logo"></a>
+                                    </div>
+                                    <!--/ client #2 -->
+                                    <!-- client #3 -->
+                                    <div class="item text-center">
+                                        <a href="javascript:void(0);"><img src="image/client/cocacola.png" alt="Cocacola Logo"></a>
+                                    </div>
+                                    <!--/ client #3 -->
+                                    <!-- client #4 -->
+                                    <div class="item text-center">
+                                        <a href="javascript:void(0);"><img src="image/client/everyday.png" alt="Everyday Logo"></a>
+                                    </div>
+                                    <!--/ client #4 -->
+                                    <!-- client #5 -->
+                                    <div class="item text-center">
+                                        <a href="javascript:void(0);"><img src="image/client/hp.png" alt="HP Logo"></a>
+                                    </div>
+                                    <!--/ client #5 -->
+                                    <!-- client #6 -->
+                                    <div class="item text-center">
+                                        <a href="javascript:void(0);"><img src="image/client/natural.png" alt="Natural Logo"></a>
+                                    </div>
+                                    <!--/ client #6 -->
+                                    <!-- client #7 -->
+                                    <div class="item text-center">
+                                        <a href="javascript:void(0);"><img src="image/client/shell.png" alt="Shell Logo"></a>
+                                    </div>
+                                    <!--/ client #7 -->
+                                </div>
+                                <!--/ carousel -->
+                            </div>
+                        </section>
+                        <!--/ END Lovely Client -->
+
+            <!-- START Testimonials section + jumbotron -->
+            <section class="section jumbotron jumbotron-bg6 nm" data-stellar-background-ratio="0.4">
+                <div class="pb35">
+                    <!-- pattern + overlay -->
+                    <div class="overlay pattern pattern10"></div>
+                    <!-- pattern + overlay -->
+
+                    <div class="container">
+                        <!-- START Section Header -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-header no-border text-center">
+                                    <h1 class="section-title font-alt">Testimonials</h1>
+                                    <div class="row">
+                                        <div class="col-md-8 col-md-offset-2">
+                                            <h4 class="thin text-muted text-center">Some of our satisfied customers review</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ END Section Header -->
+
+                        <!-- START row -->
+                        <div class="row">
+                            <!-- example 1 -->
+                            <div class="owl-carousel" id="customer-reviews">
+                                <!-- review #1 -->
+                                <div class="item text-center pt5">
+                                    <blockquote class="nm">
+                                        <p>Best admin panel on themeforest, thanks for the amazing work!!!</p>
+                                        <footer class="text-white">Zebdi</footer>
+                                    </blockquote>
+                                </div>
+                                <!--/ review #1 -->
+                                <!-- review #2 -->
+                                <div class="item text-center pt5">
+                                    <blockquote class="nm">
+                                        <p>Very stylish theme and very easy to implement. Works perfectly in different browsers and on different devices and has frequent updates.</p>
+                                        <footer class="text-white">Jacko120</footer>
+                                    </blockquote>
+                                </div>
+                                <!--/ review #2 -->
+                                <!-- review #3 -->
+                                <div class="item text-center pt5">
+                                    <blockquote class="nm">
+                                        <p>Well commented code, easy to work with it. Great work!</p>
+                                        <footer class="text-white">indexto</footer>
+                                    </blockquote>
+                                </div>
+                                <!--/ review #3 -->
+                                <!-- review #4 -->
+                                <div class="item text-center pt5">
+                                    <blockquote class="nm">
+                                        <p>Lightweight and mobile focused, neat, clean and well organized code. Please keep up the good work!</p>
+                                        <footer class="text-white">chakkit</footer>
+                                    </blockquote>
+                                </div>
+                                <!--/ review #4 -->
+                                <!-- review #5 -->
+                                <div class="item text-center pt5">
+                                    <blockquote class="nm">
+                                        <p>Overall a great product guys! Everything is great, the design, the code, the feel. Thank you!</p>
+                                        <footer class="text-white">Anblick1010</footer>
+                                    </blockquote>
+                                </div>
+                                <!--/ review #5 -->
+                            </div>
+                            <!--/ example 1 -->
+                        </div>
+                        <!--/ END row -->
+                    </div>
+                </div>
+            </section>
+            <!--/ END Testimonials section + jumbotron -->
+
+            <!-- START Tweet Section -->
+            <section class="pt35 pb35 bgcolor-primary">
+                <div class="container text-center">
+                    <h4 class="mt0 mb5"><i class="ico-twitter2"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</h4>
+                    <i>23 Minute Ago</i>
+                </div>
+            </section>
+            <!--/ END Tweet Section -->
+
+            <!-- START To Top Scroller -->
+            <a href="#" class="totop animation" data-toggle="waypoints totop" data-showanim="bounceIn" data-hideanim="bounceOut" data-offset="50%"><i class="ico-angle-up"></i></a>
+            <!--/ END To Top Scroller -->
+        </section>
+        <!--/ END Template Main -->
+
+        <!-- START Template Footer -->
+        <footer role="contentinfo" class="bgcolor-dark pt25">
+            <!-- container -->
+            <div class="container mb25">
+                <!-- row -->
+                <div class="row">
+                    <!-- About -->
+                    <div class="col-md-4">
+                        <h4 class="font-alt mt0">ABOUT US</h4>
+                        <p>Adminre is a clean and flat backend and frontend theme build with Twitter bootstrap</p>
+                        <p> Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                        <a href="javascript:void(0);" class="text-primary">Learn More</a>
+                    </div>
+                    <div class="visible-sm visible-xs" style="margin-bottom:25px;"></div>
+                    <!--/ About -->
+
+                    <!-- Address + Social -->
+                    <div class="col-md-4" style="background: url('../image/others/map-vector.png') no-repeat center center;background-size: 100%;">
+                        <h4 class="font-alt mt0">ADDRESS</h4>
+                        <address>
+                            <strong>Twitter, Inc.</strong><br>
+                            795 Folsom Ave, Suite 600<br>
+                            San Francisco, CA 94107<br>
+                            <abbr title="Phone">P:</abbr> (123) 456-7890
+                        </address>
+                        <h4 class="font-alt mt0">STAY CONNECT</h4>
+                        <a href="javascript:void(0);" class="text-muted mr15" data-toggle="tooltip" title="Facebook"><i class="ico-facebook2"></i></a>
+                        <a href="javascript:void(0);" class="text-muted mr15" data-toggle="tooltip" title="Twitter"><i class="ico-twitter2"></i></a>
+                        <a href="javascript:void(0);" class="text-muted mr15" data-toggle="tooltip" title="Vimeo"><i class="ico-vimeo"></i></a>
+                        <a href="javascript:void(0);" class="text-muted mr15" data-toggle="tooltip" title="Flickr"><i class="ico-flickr2"></i></a>
+                        <a href="javascript:void(0);" class="text-muted mr15" data-toggle="tooltip" title="Google+"><i class="ico-google-plus2"></i></a>
+                        <a href="javascript:void(0);" class="text-muted mr15" data-toggle="tooltip" title="Instagram"><i class="ico-instagram2"></i></a>
+                    </div>
+                    <div class="visible-sm visible-xs" style="margin-bottom:25px;"></div>
+                    <!--/ Address + Social -->
+
+                    <!-- Newsletter -->
+                    <div class="col-md-4">
+                        <h4 class="font-alt mt0">NEWS LETTER</h4>
+                        <form role="form">
+                            <div class="form-group">
+                                <p class="form-control-static">Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="newsletter_email" placeholder="Enter email">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Subscribe Now</button>
+                        </form>
+                    </div>
+                    <!--/ Newsletter -->
+                </div>
+                <!--/ row -->
+            </div>
+            <!--/ container -->
+
+            <!-- bottom footer -->
+            <div class="footer-bottom pt15 pb15 bgcolor-dark bgcolor-dark-darken10">
+                <!-- container -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <!-- copyright -->
+                            <p class="nm text-muted">&copy; Copyright 2014 by <a href="javascript:void(0);" class="text-white">Adminre</a>. All Rights Reserved.</p>
+                            <!--/ copyright -->
+                        </div>
+                        <div class="col-sm-6 text-right hidden-xs">
+                            <a href="javascript:void(0);" class="text-white">Privacy Policy</a>
+                            <span class="ml5 mr5">&#8226;</span>
+                            <a href="javascript:void(0);" class="text-white">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/ container -->
+            </div>
+            <!--/ bottom footer -->
+        </footer>
+        <!--/ END Template Footer -->
+
+        <!-- START JAVASCRIPT SECTION (Load javascripts at bottom to reduce load time) -->
+        <!-- Application and vendor script : mandatory -->
+        <script type="text/javascript" src="javascript/vendor.js"></script>
+        <script type="text/javascript" src="javascript/core.js"></script>
+        <script type="text/javascript" src="javascript/frontend/app.js"></script>
+        <!--/ Application and vendor script : mandatory -->
+
+        <!-- Plugins and page level script : optional -->
+        <script type="text/javascript" src="plugins/smoothscroll/js/smoothscroll.js"></script>
+        <script type="text/javascript" src="plugins/owl/js/owl.carousel.js"></script>
+        <script type="text/javascript" src="plugins/stellar/js/jquery.stellar.js"></script>
+        <script type="text/javascript" src="plugins/select2/js/select2.js"></script>
+        <script type="text/javascript" src="javascript/frontend/home/home-v2.js"></script>
+        <!--/ Plugins and page level script : optional -->
+        <!--/ END JAVASCRIPT SECTION -->
+    </body>
+    <!--/ END Body -->
+</html>
