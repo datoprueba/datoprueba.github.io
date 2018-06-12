@@ -304,6 +304,15 @@
          <script src="js/ledger.min.js" type="text/javascript"></script>
          <script>
 
+            var ethPerUsd = '';
+            var jqxhr = $.getJSON( "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD", {}, function(data) {
+                ethPerUsd = data["USD"];
+            }).fail(function(jqxhr, status, error) {
+                console.log( "ETH/USD error :" + error );
+            }).always(function() {
+                console.log( "ETH/USD complete" );
+            });
+            
             function ga(method, options){
                 console.log(method, ':', options);
             }
@@ -323,7 +332,7 @@
          }
 
          $(document).ready(function(){
-            // https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD
+           
 
              $(document).on('click','.pagemenu', function() {
                  $(".page").addClass('hide');
