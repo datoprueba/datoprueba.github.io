@@ -131,7 +131,7 @@
                             </ul>
                             <!--/ tab -->
                             <!-- tab content -->
-                            <div class="tab-content panel mh355">
+                            <div class="tab-content panel graphtab">
                                 <div class="tab-pane active np" id="timeline">
                                     <div id="reactgooglegraph-1"></div>
                                 </div>
@@ -146,7 +146,7 @@
                         </div>
                         <div class="col-md-4">
                                 <h3 class="semibold">TRANSACTION HISTORY</h3>
-                                <div class="panel">
+                                <div class="panel transaction">
                                     <div id="trades"></div>      
                                 </div>
                         </div>
@@ -312,7 +312,7 @@
             }).always(function() {
                 console.log( "ETH/USD complete" );
             });
-            
+
             function ga(method, options){
                 console.log(method, ':', options);
             }

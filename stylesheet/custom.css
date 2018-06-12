@@ -37,6 +37,10 @@
     min-height: 355px;
 }
 
+.graphtab {
+    min-height: 320px;
+}
+
 .img-logo{
     height: 80px;
 }
@@ -63,9 +67,16 @@
     table-layout: fixed;
 }
 
+.transaction .scrolltable tbody {
+    display: block;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 .scrolltable tbody {
     display: block;
-    max-height: 335px;
+    max-height: 365px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
