@@ -30,8 +30,7 @@
     { "addr": "0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0", "name": "EOS", "decimals": 18 },
     { "addr": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a", "name": "PPT", "decimals": 18 },
     { "addr": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07", "name": "OMG", "decimals": 18 },
-    { "addr": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359", "name": "DAI", "decimals": 18 },
-    { "addr": "0x6b5e2c172f71c456a8e73d2a8d65c884e21d1ed3", "name": "DEF", "decimals": 18 }
+    { "addr": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359", "name": "DAI", "decimals": 18 }
   ],
   "defaultPair": { "token": "EOS", "base": "ETH" }
 }
