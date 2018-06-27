@@ -3,7 +3,7 @@
   "contractToken": "smart_contract/token.sol",
   "contractReserveToken": "smart_contract/reservetoken.sol",
   "contractEtherDeltaAddrs": [
-    { "addr": "0xA8C0041eF98333fC425af691Aa2d01897d481c37", "info": "Santosh Contract" }
+    { "addr": "0xf5b4a5d49d2b0d658f2d729e4bea7b7811a7e06a", "info": "AK4 EtherDelta" }
   ],
   "ethTestnet": false,
   "ethChainId": 1,
@@ -31,7 +31,8 @@
     { "addr": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a", "name": "PPT", "decimals": 18 },
     { "addr": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07", "name": "OMG", "decimals": 18 },
     { "addr": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359", "name": "DAI", "decimals": 18 },
-    { "addr": "0x6b5e2c172f71c456a8e73d2a8d65c884e21d1ed3", "name": "DEF", "decimals": 18 }
+    { "addr": "0x6b5e2c172f71c456a8e73d2a8d65c884e21d1ed3", "name": "DEF", "decimals": 18 },
+    { "addr": "0xe989abe31174f609e9013403eeb334ae610cf327", "name": "AK4", "decimals": 0 }
   ],
   "defaultPair": { "token": "EOS", "base": "ETH" }
 }
