@@ -5,8 +5,8 @@
   "contractEtherDeltaAddrs": [
     { "addr": "0xf5b4a5d49d2b0d658f2d729e4bea7b7811a7e06a", "info": "AK4 EtherDelta" }
   ],
-  "ethTestnet": false,
-  "ethChainId": 1,
+  "ethTestnet": "ropsten",
+  "ethChainId": 3,
   "ethProvider": "http://localhost:8545",
   "ethGasPrice": 9000000000,
   "ethAddr": "0x0000000000000000000000000000000000000000",
@@ -34,5 +34,5 @@
     { "addr": "0x6b5e2c172f71c456a8e73d2a8d65c884e21d1ed3", "name": "DEF", "decimals": 18 },
     { "addr": "0xe989abe31174f609e9013403eeb334ae610cf327", "name": "AK4", "decimals": 0 }
   ],
-  "defaultPair": { "token": "EOS", "base": "ETH" }
+  "defaultPair": { "token": "AK4", "base": "ETH" }
 }
