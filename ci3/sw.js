@@ -2,8 +2,8 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
 	'/',
 	'./',
-	'../ci3/js/pwa.js',
-	'../ci3/manifest.json'
+	'./ci3/js/pwa.js',
+	'./ci3/manifest.json'
 ];
 
 self.addEventListener('install', function(event) {
